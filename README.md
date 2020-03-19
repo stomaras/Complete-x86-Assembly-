@@ -55,6 +55,8 @@ I play with assembler and microprocessor emulator 8086!
   
   - jae = jump if above or equal
   
+  - jnb = jump if not below
+  
   
 
   - A > B  X  A<=B <=>    A > B = not(A<=B)
