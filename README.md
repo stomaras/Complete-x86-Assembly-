@@ -34,7 +34,16 @@ I play with assembler and microprocessor emulator 8086!
  
  - Overflow flag (OF) : The overflow flag is set to 1 when the result of a signed operation is too large to fit.
 
-# BranchingPartIII
+# BranchingPart
+
+  - Types of Branching 
+  
+      - Conditional Branching : will be executed when the condition is verified
+      
+      - Uncoditional Branching : Executed without any condition.
+
+  -  jz label : we test the zero flag ... So if the result is null...if it's raised we change to the label, here the label in the end
+                , we execute the instruction label: inc al
 
   - jz = jump if zero flag is raised , zero flag(zf) = 1
   
