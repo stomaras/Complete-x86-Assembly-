@@ -53,6 +53,8 @@ I play with assembler and microprocessor emulator 8086!
   
   - jnae = jump if not above or equal
   
+  - jae = jump if above or equal
+  
   
 
   - A > B  X  A<=B <=>    A > B = not(A<=B)
