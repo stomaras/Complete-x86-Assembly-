@@ -49,6 +49,10 @@ I play with assembler and microprocessor emulator 8086!
   
   - jns = jump if sign flag is not raised , sign flag(sf) = 0
   
+  - ja = jump if the value is unsigned
+  
+  - jnae = jump if not above or equal
+  
   
 
   - A > B  X  A<=B <=>    A > B = not(A<=B)
