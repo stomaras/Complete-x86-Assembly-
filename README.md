@@ -24,7 +24,7 @@ I play with assembler and microprocessor emulator 8086!
                         1-MSB is 1 (Negative)
                         0-MSB is 0 (Positive)
                         
- - Zero Flag (ZF) : After any arithmetical or logical operation if the result is 0 (00)H, the zero flag becomes 1, otherwise->0
+ - Zero Flag (ZF) : After any arithmetical or logical operation if the result is 0 (00)H, the zero flag becomes 1, otherwise-0
                     
  - Auxilary Crry Flag (AF) : if there is a carry from d3 to d4 of an operation this bit is set to 1 otherwise cleared(set to 0)
  
