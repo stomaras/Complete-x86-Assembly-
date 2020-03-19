@@ -24,7 +24,15 @@ I play with assembler and microprocessor emulator 8086!
                         1-MSB is 1 (Negative)
                         0-MSB is 0 (Positive)
                         
- # to do : explain the rest of the flags tommorow 
+ - Zero Flag (ZF) : After any arithmetical or logical operation if the result is 0 (00)H, the zero flag becomes 1, otherwise->0
+                    
+ - Auxilary Crry Flag (AF) : if there is a carry from d3 to d4 of an operation this bit is set to 1 otherwise cleared(set to 0)
+ 
+ - Carry Flag (CF) : This is carry bit. if some operations are generating carry after the operation this flag is set to 1.
+ 
+ - Parity flag (PF) : When result has even number of 1, it will be set to 1, otherwise 0 for odd number of 1's
+ 
+ - Overflow flag (OF) : The overflow flag is set to 1 when the result of a signed operation is too large to fit.
 
 # BranchingPartIII
 
