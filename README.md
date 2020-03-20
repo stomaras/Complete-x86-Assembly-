@@ -1,6 +1,6 @@
 # Complete-x86-Assembly-
 
--I work with assembler and microprocessor emulator 8086!
+- I work with microprocessor 8086
 
 # Assembly Language
 
@@ -154,7 +154,7 @@
   
   - jp : jump if the parity flag is raised (pf = 1)
   
-  - jnp : jump if the parity flag is not raised (pf = 0)
+  - jnp : jump if the parity flag is not raised (pf = 0) (jnp same instrucyion with jpo)
   
   
 
