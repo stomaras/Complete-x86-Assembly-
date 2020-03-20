@@ -152,6 +152,10 @@
     
   - jle = jump if it is lower or equal 
   
+  - jp : jump if the parity flag is raised (pf = 1)
+  
+  - jnp : jump if the parity flag is not raised (pf = 0)
+  
   
 
   - A > B  X  A<=B <=>    A > B = not(A<=B)
