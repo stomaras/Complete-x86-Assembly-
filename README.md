@@ -1,8 +1,32 @@
 # Complete-x86-Assembly-
 
--I work the project with the help of udemy instructor 
-
 -I work with assembler and microprocessor emulator 8086!
+
+# Assembly Language
+
+- is a low level programming language
+
+# Types of programming language
+
+- High Level: Requires Syntax, function and libraries
+
+- Low Level: Synatx, Hardware Architecture, Basci knowledge of data representation
+
+# Basic Digital Computer Architecture 
+
+- The Computer consists of the Central Processing Unit which is CPU and There is memory which is RAM and we have as well the inputs
+  and outputs unit for example the keyboard, the screen, the printer and so on...
+  
+- We have the external Storage for example the hard disk or the local disk
+
+- Memory is like a stocker where the CPU use it in order to stock the data
+
+- When CPU needs to read data from the memory it sends a request by the control bus.In addition it sends with it the address of this 
+  data. In this Case the CPU is informing the Memory that its need to read the Data that is in the address for exampe 722
+  or wherever is the address. After nanoseconds, the Data will be available in the CPU, the second operation is writing operation
+  In the writing operation the CPU sends address and the data.
+  
+  
 
 # What is Computer Architecture
 
@@ -44,6 +68,11 @@
 
 - Hard Disk: Stores programs / data permanently
 
+- Each row in the Central Memory has a special address
+
+- Actually better to use the hexa Decimal System, the hexa system in order to read these addresses in the central memory.
+  The first bit on the right is actually called LSB and the bit on the left is called MSB(7bit).
+
 # Microprocessor 8086
 
 - Microprocessor 8086is actually consisting of 2 importants units: 
@@ -52,7 +81,9 @@
 2) Registers: The register is a unity in memory that contains 16 bits so when the microprocessor is treating a program is 
               executing a program, it's actually needs to save the data of this program in the memory.It needs a unity 
               in the memory in order to save the data and actually
-              the microprocessor 8086 is using the Register.
+              the microprocessor 8086 is using the Register. Each Register contains 16 bits.It's column call bits, on it's
+              column we can save data which is 0 or 1. Each row called byte, each column called bit.
+              8bits = 1byte.
 
 
 # Flag Register of 8086 Microprocessor
