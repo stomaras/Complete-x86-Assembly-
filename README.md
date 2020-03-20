@@ -44,6 +44,19 @@
 
 - Hard Disk: Stores programs / data permanently
 
+# Microprocessor 8086
+
+- Microprocessor 8086is actually consisting of 2 importants units: - ALU: Taking charge of the mathematical operations 
+                                                                     For Logical operations we take an example of the AND,OR,XOR and so                                                                      on.
+                                                                   - Registers: The register is a unity in memory that contains 16 bits
+                                                                                So when the microprocessor is treating a program is 
+                                                                                executing a program, it's actually needs to save the 
+                                                                                data of this program in the memory.It needs a unity 
+                                                                                in the memory in order to save the data and actually
+                                                                                the microprocessor 8086 is using the Register.
+
+-
+
 # Flag Register of 8086 Microprocessor
 
   - Flag Register : contains 16bits or 16 columns, there are 9 columns that have a senseand the others does not have a sense
