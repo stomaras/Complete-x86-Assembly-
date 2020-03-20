@@ -1,8 +1,48 @@
 # Complete-x86-Assembly-
 
-I work the project with the help of udemy instructor 
+-I work the project with the help of udemy instructor 
 
-I play with assembler and microprocessor emulator 8086!
+-I work with assembler and microprocessor emulator 8086!
+
+# What is Computer Architecture
+
+-The view of a Computer as represented to Software designers.It is an interface or specification that the Software designers see
+
+# Computer Organization 
+
+-The actual Implementation of a Computer in Hardware
+
+-We have computer in a Desktop
+                       Laptop
+                       Phone
+                       ipod
+                      
+- Computer is a general purpose Device that can be programmed to process information, and yield meaningful Results
+
+- Computer should be able to program it, so circuit that does a specific action is actually not a Computer. So for example
+  let's say that you have a small time monitors on top of the room which is showing what is the Current temperature, that's
+  not a Computer, even though you know it's showing it's temperature on a nice screen. The reason is that this Device cannot be 
+  programmed
+  
+  Second it needs to be able to process some information that is given from outside like you enter some keyboard, some information
+  via a keyboard or a mouse, it's processing that information, it needs to eat meaningful Results.
+  
+- Program: List of instructions given to the Computer
+
+- Informations Store: data, image, files, videos
+
+- Computer : Process the information store according to the instructions on the program
+
+- Hard Disk Capacity > RAM Capacity 
+
+- Hard Disk Speed < RAM speed
+
+- switch off: - Hard Disk remain
+              - RAM don't remain anything 
+              
+- Memory : Store programs and Data. Gets destroyed when the Computer is powered off.
+
+- Hard Disk: Stores programs / data permanently
 
 # Flag Register of 8086 Microprocessor
 
