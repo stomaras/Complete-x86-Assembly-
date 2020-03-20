@@ -48,12 +48,12 @@
 
 - Microprocessor 8086is actually consisting of 2 importants units: 
 
-- ALU: Taking charge of the mathematical operations, for Logical operations we take an example of the AND,OR,XOR and so on.
-- Registers: The register is a unity in memory that contains 16 bits so when the microprocessor is treating a program is 
-             executing a program, it's actually needs to save the data of this program in the memory.It needs a unity 
-             in the memory in order to save the data and actually
-             the microprocessor 8086 is using the Register.
--
+1) ALU: Taking charge of the mathematical operations, for Logical operations we take an example of the AND,OR,XOR and so on.
+2) Registers: The register is a unity in memory that contains 16 bits so when the microprocessor is treating a program is 
+              executing a program, it's actually needs to save the data of this program in the memory.It needs a unity 
+              in the memory in order to save the data and actually
+              the microprocessor 8086 is using the Register.
+
 
 # Flag Register of 8086 Microprocessor
 
