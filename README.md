@@ -57,6 +57,19 @@ I play with assembler and microprocessor emulator 8086!
   
   - jnb = jump if not below
   
+  - jg = jumpi if it is greater
+  
+  - jge = jump if it is greater or equal
+  
+  - gl = It performs a signed comparison jump after a cmp if the destination operand is less than the source operand. 
+  
+  - gl = gb (first for sign numbers comparison, second for unsigned number comparison)
+  
+  - cmp    bl, 78h
+    jl  short loc_402B1D ; if bl < 78h, jump to loc_402B1D
+    
+  - jle = jump if it is lower or equal 
+  
   
 
   - A > B  X  A<=B <=>    A > B = not(A<=B)
