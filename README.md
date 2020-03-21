@@ -273,6 +273,30 @@
  - 20h = 32
  - The uppercase chars are from 65 to 90
  - The lowercase chars are from 97 to 122
+ 
+ - Now we are going to see a program that asks from the users to send a number and we have actually the numbers from 0 to 9 
+   and the number which we enter will appear in the AL 
+   
+    - .model small
+    - .data
+    
+    - .code
+    - main proc
+    -         mov ah,1
+    -         int 21h
+    -
+    -         cmp al,48
+    -         jb endf
+    -         cmp al,57
+    -         ja endf
+    -
+    -         sub al,48
+    
+    -     endf:mov ah,4ch
+    -          int 21h
+    -          ret
+    -     main endp
+    -end
                        
                        
  
