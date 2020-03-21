@@ -199,12 +199,21 @@
                        in the next chapter now we are going to see the print service. Now code service here is 2
         - Second Step: is what we want to print , we want to print the value 1
         - Third Step:  int 21h = the code of interruption 21h
-        
+       
         - The interruption which used in order to print a char in the DOS Screen is 21h
         - The service code which used in order to print a char in the DOS Screen is 2
         - We put the char which we want to print in the DOS screen in dl
         - We put the service code '2' to print a char in the DOS Screen in ah
         - char db 48 is a char data type definition
+        
+  - We are going to see another service which is how to enter a character from the keyboard
+      - this operation is actually based on two steps.
+      
+      mov ah,1
+      int 21h
+      
+      - First Step: we move 1 in the register ah, we have the code service 1
+      - Second Steo: we have an interruption 21h, so the character that we will enter will be in the register al
                        
                        
                        
