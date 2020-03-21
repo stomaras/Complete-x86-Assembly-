@@ -165,3 +165,51 @@
                       <=>  not( A>= B) = A < B
                     
   - A = B   X  A<>B <=>  A=B  =  not(A<>B)
+  # Data types -chars
+  
+  - In this chapter we are going to see another type of information which is the character.
+  - The character is actually a group of example English letters located in the Upper keys , the numbers from 0 to 9 e.t.c
+  - How we define a varible as a data type: char db 'a'
+  - We represent the characters by table that we call ascii codes.
+  - In the ascii code we have unsigned numbers
+  - All the information are stored in memory as 1's and 0's
+  - These 1's and 0's , has no base without the representation base.
+  - For example we have => char db '?'
+                        => then . . .  the processor is going to look for the ? character in the ASCII table in their own 
+                           memory so will keep looking for this character ... so when the processor find the ? will take the 
+                           assigned value that's refer to this character which we have here is 063
+                           next step is to convert this value to the binary system and then stock the variable => 00111111
+                           and then take these for you and refer it to th chracter to the code to the char variable in the
+                           memory ... ALL THE ABOVE IS THE PROCESS THAT HAPPENED IN THE PROCESSOR
+                           
+ - 
+                           
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
