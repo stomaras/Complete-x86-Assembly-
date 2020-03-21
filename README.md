@@ -269,6 +269,10 @@
  
       - Here 65 -a if we add 32 we will have 97 which is A
       - Here if we have b - 66  and we add 32 we will have 98 which is B
+      
+ - 20h = 32
+ - The uppercase chars are from 65 to 90
+ - The lowercase chars are from 97 to 122
                        
                        
  
