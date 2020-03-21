@@ -248,7 +248,22 @@
             - mov ah,4ch
             - int 21h
             
-                       
+ - We are going to see the different operations on the characters.So since the character is represented in the unsigned nums
+   so actually all the operations that we can use them in the assigned numbers we can use them on the characters. So there are 
+   sub , inc, dec and so on... also we can use branching instruction , jump if below, jump if above  and this is it
+   
+      - First Step
+          - mov dl,'A'
+          - add dl,1
+          
+      - Second Step
+           - mov ah,2
+           - int 21h
+      
+      - Third Step
+          - mov ah,4ch
+          - int 21h
+     
                        
                        
                        
