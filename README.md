@@ -219,6 +219,35 @@
       - To read a char from the keyboard we use the service code 1
       - we can obtain the char which is entered from the keyboard in AL
       - the format of the char which is obtained from the keyboard in AL register is the unsigned number which is assigned to that char
+      
+ - We are going to see practical example about the services of the DOS.
+     
+      - We are going to ask the user to enter a character and then we are going to print this character 
+        
+        - So first we have move ah,1 the 1 is the code service of entering a character from the keyboard 
+          and then interruption 21h
+            
+            - mov ah, 1
+            - int 21h
+          
+        - Then we are going to print this character so we type move ah,2...where 2 is code service of printing
+          then we have move dl,al because we say that we are going to print anything ...we put it on the al register
+          so we move what we want to print in the register dl and then we have interruption 21h
+          
+            - mov ah, 2
+            - mov dl, al
+            - int 21h
+            
+       - Then we got the message programm has returned control to the operating system 
+       
+            - We got the message due to the above code. When we dealing with the DOS is better actually to write this instruction
+            - So after reading or printing it would be better to write mov ah, 4ch and then interruption 21h, in order to leave the 
+              DOS and go back to the operating system.
+              
+              
+            - mov ah,4ch
+            - int 21h
+            
                        
                        
                        
