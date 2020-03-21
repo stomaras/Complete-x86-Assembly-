@@ -214,6 +214,11 @@
       
       - First Step: we move 1 in the register ah, we have the code service 1
       - Second Steo: we have an interruption 21h, so the character that we will enter will be in the register al
+      
+      - To read a char from the keyboard we use the interruption 21h
+      - To read a char from the keyboard we use the service code 1
+      - we can obtain the char which is entered from the keyboard in AL
+      - the format of the char which is obtained from the keyboard in AL register is the unsigned number which is assigned to that char
                        
                        
                        
