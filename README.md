@@ -291,12 +291,12 @@
     -         ja endf
     -
     -         sub al,48
-    
+    -
     -     endf:mov ah,4ch
     -          int 21h
     -          ret
     -     main endp
-    -end
+    - end
                        
                        
  
