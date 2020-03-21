@@ -191,9 +191,9 @@
         
       - Printing a character it's actually based on three steps.
       
-         mov ah,2
-         mov dl,'1'
-         int 21h
+         - mov ah,2
+         - mov dl,'1'
+         - int 21h
          
         - First Step : is to move to the register ah and 2 is actually a code series.We are going to tell more on code series
                        in the next chapter now we are going to see the print service. Now code service here is 2
@@ -209,8 +209,8 @@
   - We are going to see another service which is how to enter a character from the keyboard
       - this operation is actually based on two steps.
       
-      mov ah,1
-      int 21h
+      - mov ah,1
+      - int 21h
       
       - First Step: we move 1 in the register ah, we have the code service 1
       - Second Steo: we have an interruption 21h, so the character that we will enter will be in the register al
