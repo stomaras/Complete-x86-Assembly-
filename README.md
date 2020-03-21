@@ -265,7 +265,10 @@
           - int 21h
      
                        
-                       
+ - Convert from Lowercase to Uppercase  
+ 
+      - Here 65 -a if we add 32 we will have 97 which is A
+      - Here if we have b - 66  and we add 32 we will have 98 which is B
                        
                        
  
