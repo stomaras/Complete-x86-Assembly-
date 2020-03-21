@@ -182,6 +182,44 @@
                            and then take these for you and refer it to th chracter to the code to the char variable in the
                            memory ... ALL THE ABOVE IS THE PROCESS THAT HAPPENED IN THE PROCESSOR
                            
+  - We have the ASCII Table in order to represent the chars
+  - The ASCII Table contain 0-255 letters
+  
+  - What is interruption operation ?
+      - Is to interrupt the program to do something in our case here, we are going to interrupt the program 
+        in order to print a character.
+        
+      - Printing a character it's actually based on three steps.
+      
+         mov ah,2
+         mov dl,'1'
+         int 21h
+         
+        - First Step : is to move to the register ah and 2 is actually a code series.We are going to tell more on code series
+                       in the next chapter now we are going to see the print service. Now code service here is 2
+        - Second Step: is what we want to print , we want to print the value 1
+        - Third Step:  int 21h = the code of interruption 21h
+                       
+                       
+                       
+                       
+                       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                           
  - 
                            
   
