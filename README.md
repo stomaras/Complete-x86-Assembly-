@@ -238,7 +238,7 @@
             - mov dl, al
             - int 21h
             
-       - Then we got the message programm has returned control to the operating system 
+        - Then we got the message programm has returned control to the operating system 
        
             - We got the message due to the above code. When we dealing with the DOS is better actually to write this instruction
             - So after reading or printing it would be better to write mov ah, 4ch and then interruption 21h, in order to leave the 
