@@ -303,6 +303,12 @@
 - In order to read messages we write the code service - 9
 - In the declaration of a message at the end we write a $
 - lea (instruction) = load effective address
+- The text message that we want to print in DOS must end up at $
+- to print a text message in the DOS screen we use the interruption 21h
+- the instruction lea dx,msg ... put the address of the variable msg in DX register
+- to print a text message in the DOS screen we use the service code 9
+- to print a text message in the DOS screen we use lea dx,msg
+
                        
                        
  
