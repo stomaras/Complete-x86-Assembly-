@@ -297,6 +297,12 @@
     -          ret
     -     main endp
     - end
+    
+# Text Messages 
+
+- In order to read messages we write the code service - 9
+- In the declaration of a message at the end we write a $
+- lea (instruction) = load effective address
                        
                        
  
