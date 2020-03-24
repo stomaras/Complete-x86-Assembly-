@@ -309,6 +309,10 @@
 - to print a text message in the DOS screen we use the service code 9
 - to print a text message in the DOS screen we use lea dx,msg
 
+# Simulate some high level languages instructions
+
+ - mov dx,msg offset ... same as ... lea dx,msg
+
                        
                        
  
