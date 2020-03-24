@@ -312,6 +312,10 @@
 # Simulate some high level languages instructions
 
  - mov dx,msg offset ... same as ... lea dx,msg
+ - in the for loop we put the nimber of iterations in CX
+ - for iterations.....
+ - ...................
+ - ...................
 
                        
                        
