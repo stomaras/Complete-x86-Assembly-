@@ -316,6 +316,44 @@
  - for iterations.....
  - ...................
  - ...................
+ 
+# Segments Registers and Memory Segmentation 
+
+  - The program is Consist of a Very Important part which is the Code
+  - The other part is data
+  
+  - Firstly when the user is executing a program.So the operating system loads this program from the external storage and let's be the 
+    the local disk to the Central Memory.After that well seperated the four part, one of them is the code segments which is obligatory
+    and the others are optionsl SS,DS,ES
+    
+  - The code part will be saves randomly , so the operating system will dave this part of the program randomly into central memory
+    in the Code Segment, and then will save the Data Part if it's available and load in the RAM
+    
+  - The Extra Segment uses it for transfering the data with a Huge Size.
+  
+  - So the CS(Code Segment) has the address of the beginning of this code segment, so from where it starts the Code Segments...
+    Same logic for the others Segment Registers.
+    
+  - That's why we actually write these instructions: mov ax,@data
+                                                     mov ds,ax
+                                                     
+     So the instruction mov ax,@data is like saving the address of the data...So the data of these Program we save it in the 
+     Register ax...we can use any other data register like(bx,cx,dx)
+     So the next step save this data in the ds ...mov ds,ax... ds indicate the Data Segment
+     We do that in order to deal with the varibales of the program safely.
+     
+  NOTES !!!
+  
+  - Segments Registers are : - DS
+                             - CS
+                             - SS
+                             - ES
+  
+  - Segments Registers Contain : - 16 bit
+  
+  - mov ax,@data ... puts the Address of the Data Segment in the Main Memory in AX
+  
+  - The DS Register contains the address in the main memory of the Data Segment.
 
                        
                        
