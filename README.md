@@ -365,6 +365,16 @@
   - MEDIUM MODEL => code s+, data 1s
   - COMPACT MODEL => code 1s, data s+
   - LARGE,HUGE => code s+, data s+
+  
+# The segment registers DS,CS,SS,ES
+  
+  - Actually deal only with one instruction, which is mov... So for other instructions for example inc,dec they are wrong 
+  
+  - The other thing is that these registers does not work with the constant... mov ds,5 is a MISTAKE
+  
+  - mov ds, @data => Mistake... Because Data is a Constant and indicate the position of the Data Segment in the RAM
+  
+  - Segment Registers: action only with Data Registers and with the variables.
 
                        
                        
