@@ -354,6 +354,10 @@
   - mov ax,@data ... puts the Address of the Data Segment in the Main Memory in AX
   
   - The DS Register contains the address in the main memory of the Data Segment.
+  
+  - The offset actually is the number of the rows from the beginning of the Segment which is the @data
+  
+  - When we use the offset we put the offset value between: []
 
                        
                        
