@@ -358,6 +358,13 @@
   - The offset actually is the number of the rows from the beginning of the Segment which is the @data
   
   - When we use the offset we put the offset value between: []
+  
+ # Memory Models
+ 
+  - SMALL MODEL => code 1s, data 1s
+  - MEDIUM MODEL => code s+, data 1s
+  - COMPACT MODEL => code 1s, data s+
+  - LARGE,HUGE => code s+, data s+
 
                        
                        
