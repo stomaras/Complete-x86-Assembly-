@@ -384,6 +384,10 @@
    - Each variable of the array has the size byte 
    - mov al, marks ... in the al variable we have the value of marks
    - Array with one dimension are: A set of serial variables in the RAM has a shared name and size.
+   - marks db 5,6,?,5,9,8 ... each variable has the size byte = 8bits 
+   - marks dw 5,6,7,?,9 ... each variable has the size word = 16 bits
+   - arr dd 12,?,15,?,?,?,15 ... each entry variable in the previous array has 32bit
+   - arr db 3 dup(0) = arr db 0,0,0
 
                        
                        
