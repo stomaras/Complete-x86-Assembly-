@@ -375,6 +375,15 @@
   - mov ds, @data => Mistake... Because Data is a Constant and indicate the position of the Data Segment in the RAM
   
   - Segment Registers: action only with Data Registers and with the variables.
+  
+# Arrays with one dimension
+
+
+  # Introduction to arrays 
+  
+   - Each variable of the array has the size byte 
+   - mov al, marks ... in the al variable we have the value of marks
+   - Array with one dimension are: A set of serial variables in the RAM has a shared name and size.
 
                        
                        
