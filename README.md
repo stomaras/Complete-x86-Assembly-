@@ -4,7 +4,10 @@
 
 # Assembly Language
 
-- is a low level programming language
+- Assembly language is a low-level programming language for a computer or other programmable devices specific 
+  to a particular computer architecture in Contrast to most high-level Programming languages, which are generally 
+  portable across multiple systems.Assembly Language is converted into executable machine code by a utility program
+  refered to as an assembler like NASM,MASM, e.t.c
 
 # Types of programming language
 
