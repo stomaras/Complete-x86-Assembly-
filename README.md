@@ -391,7 +391,31 @@
    - marks dw 5,6,7,?,9 ... each variable has the size word = 16 bits
    - arr dd 12,?,15,?,?,?,15 ... each entry variable in the previous array has 32bit
    - arr db 3 dup(0) = arr db 0,0,0
+   
+# Addressing Modes
 
+  - the addressing mode is a way to access to the operant in the instruction
+  
+  we have four modes: - Immediate
+                      - Register
+                      - Direct
+                      - Indirect
+                      
+ # Examples 
+ 
+   # Immediate
+   - mov al 5
+   - add ah, C
+   
+   # Register
+   - xchg al,ah
+   - mov bl,cl
+   - inc cx
+   
+   # Direct
+   - mov var, 5
+   - mov al, var
+   - xchg bl,var
                        
                        
  
