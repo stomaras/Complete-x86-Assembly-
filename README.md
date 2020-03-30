@@ -416,6 +416,37 @@
    - mov var, 5
    - mov al, var
    - xchg bl,var
+   
+   # Indirect
+   - mov al,[5+1]
+   - mov bl,[5]+1
+   - mov ah,[C]
+   
+   # Indirect Indexed
+   - mov si,2
+   - mov bl,[si]
+   - lea di,arr+3
+   - mov bh,[di]
+   
+   # Indirect based
+   - mov bx,3
+   - mov cl,[bx]
+   - lea bx,var
+   - mov ch,[bx]
+   
+   # Important Note !!!
+   - All the examples that we have seen now concerning the offset in the data segments. So until here we deal with the data segment 
+     and not another segment ... why this note... actually there is another register which is the BP ... so if we write the BP 
+     between two brackets that means that the offset in the stack segment and not the data segment
+   - So if we write the constant , the si, the di or the bx between two brackets that we are dealing with the offsets in the 
+     data segments
+   - The indirect addressing mode has 4 types
+   - mov al,1+[3] , al = 4
+   - the si,di,bx registers are used in the offset in .data segment
+   - the bp register is used for the offset in .stack segment
+   
+   
+   
                        
                        
  
