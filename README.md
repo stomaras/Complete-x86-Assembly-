@@ -449,6 +449,9 @@
    - mov al, [2] + arr
    - mov al, arr+[2] === mov al,arr[2] === mov al,2[arr] === mov al,[arr]2
    - mov al,2[var] ... we save to register al the offset 2 from the var variable
+   - mov al,arr[2] = mov al,arr[2]
+   - mov al,arr[si]1 = mov al,[arr+si+1]
+   - mov al,1[arr]2 = mov al,arr+3
    
    
    
