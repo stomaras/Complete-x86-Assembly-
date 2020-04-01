@@ -460,6 +460,8 @@
  # Arrays with two dimensions 
  
   - an array with two dimensions is a set off arrays with one dimensions 
+  - to index an array with two dimensions there are: 2 ways
+  - indexing an array using the number of the row and the column is similar to the high level languages
   
    
    
