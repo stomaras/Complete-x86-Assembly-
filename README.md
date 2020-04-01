@@ -452,6 +452,10 @@
    - mov al,arr[2] = mov al,arr[2]
    - mov al,arr[si]1 = mov al,[arr+si+1]
    - mov al,1[arr]2 = mov al,arr+3
+   - mov al,arr[si][bx] = mov al,[arr+si+bx]
+   - mov al,[si][bx]arr = mov al,[arr+bx+si]
+   - mov al,arr[bx][si]+5 = mov al,[si+3][bx+2]arr
+   - the indirect indexed based addressing mode uses: SI or DI and BX
    
    
    
