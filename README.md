@@ -457,6 +457,11 @@
    - mov al,arr[bx][si]+5 = mov al,[si+3][bx+2]arr
    - the indirect indexed based addressing mode uses: SI or DI and BX
    
+ # Arrays with two dimensions 
+ 
+  - an array with two dimensions is a set off arrays with one dimensions 
+  
+   
    
    
                        
