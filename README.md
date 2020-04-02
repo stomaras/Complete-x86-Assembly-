@@ -468,7 +468,9 @@
   - Bit Wise And , a and b = 1 <=> a=1, b=1
   - Bit Wise OR , a or b = 0 <=> a=0, b=0
   - Bit Wise XOR, a xor b = 0 <=> a=b, a XOR a = 0 always!!!
-  -
+  - We can figure out if a value is an even or odd value from the first bit on the right (LSB bit) 
+    - if it's 1 => odd (LSB bit)
+    - if it's 0 => even (LSB bit)
   
   
    
