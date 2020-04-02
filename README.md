@@ -463,6 +463,13 @@
   - to index an array with two dimensions there are: 2 ways
   - indexing an array using the number of the row and the column is similar to the high level languages
   
+# Bit Wise Instructions
+
+  - Bit Wise And , a and b = 1 <=> a=1, b=1
+  - Bit Wise OR , a or b = 0 <=> a=0, b=0
+  - Bit Wise XOR, a xor b = 0 <=> a=b
+  
+  
    
    
    
