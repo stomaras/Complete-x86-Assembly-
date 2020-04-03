@@ -493,6 +493,8 @@
   - or al,al -> true
   - a or a = a
   - a xor a = 0
+  - Bit Wise Instruction NOT : we reverse the value of bits in the varibale or register, the value after not cannot be constant
+  
 
   
   
