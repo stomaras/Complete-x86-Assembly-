@@ -482,6 +482,10 @@
                        Test al,mask after this operation the al will not change the only change is in the Register Flags
                        SF,ZF,PF. So we are going to check flags, in order to understand what happen during the Test.
                        The sign flag, parity flag and zero flag
+                       
+  - test al,1 : The al content will not change
+  - a and 0 = 0
+  - a and 1 = a
 
   
   
