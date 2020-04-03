@@ -471,6 +471,14 @@
   - We can figure out if a value is an even or odd value from the first bit on the right (LSB bit) 
     - if it's 1 => odd (LSB bit)
     - if it's 0 => even (LSB bit)
+  - Set-Mask : We use it when we want to write the number one in a bit.
+  - Reset-Mask : We use it when we want to change the value of that in zero.
+  - Rever-Mask : We use it when we want to reverse the value of a bit.
+  - In the Set-Mask we use : or
+  - In the reset-mask we use : and
+  - In the reverse-mask we use : xor
+  - a xor 1 = -a
+
   
   
    
