@@ -478,6 +478,10 @@
   - In the reset-mask we use : and
   - In the reverse-mask we use : xor
   - a xor 1 = -a
+  - TEST instruction : it has the same work with the bit wise and but it will not change the value of the destination
+                       Test al,mask after this operation the al will not change the only change is in the Register Flags
+                       SF,ZF,PF. So we are going to check flags, in order to understand what happen during the Test.
+                       The sign flag, parity flag and zero flag
 
   
   
