@@ -486,6 +486,13 @@
   - test al,1 : The al content will not change
   - a and 0 = 0
   - a and 1 = a
+  - sign flag, will be raised when MSB = 1
+  - a number is negative if MSB = 1
+  - In the bit wise or, and, xor we cannot have variable in the destination and the source at the same time
+  - or var,var -> False
+  - or al,al -> true
+  - a or a = a
+  - a xor a = 0
 
   
   
