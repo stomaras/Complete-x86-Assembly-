@@ -506,6 +506,16 @@
    shl al,1 => al=1010b,CF=0,because the register al has more space we don't have any move of 1 or 0's is the carrity flag
  - the shl instruction can also deal with variables
  - jnc :  jump if carry flag = 0
+ - shr do the same work with the shl.but here we go from the opposite direction.So from the left to the right.So the LSB(bit)
+   save in the Carry flag (CF).and the MSB will be zero.
+ - same rules with shl operation.
+ - but here we have a difference between the shr and sar. This is actually because the operation of division it's not the same 
+   with the negative and the (+) value.
+ - we have the MSB here,the sign bit,if we have 1 this value is (-).If MSB = 0 this value is (+)
+ - SO... if MSB=0,put's 0 after the shift
+         if MSB=1,put's 1 after the shift
+ - So shr and sar operations are not equivelant.
+ - We cannot use shr with the negative values because it doesn't give the signals so never use t with (-) values.
   
 
   
