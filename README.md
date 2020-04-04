@@ -521,6 +521,9 @@
  - RCL = Is almost same with the ROL will be shifted to the left and then the value of the MSB will be in the Carry Flag
    , instead of putting the value of MSB in the LSB, so the value of the MSB will be in Carry Flag and the value of the carry 
    flag will be in the LSB. So if the Carry Flag was 0 . . . So the value of the LSB will be 0 as well.
+ - ROR,RCL : Rotation Right is the same with the rotation left, the only difference is the direction.LSB go to Carry Flag.
+ 
+# A simple program
   
 
   
