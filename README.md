@@ -495,6 +495,18 @@
   - a xor a = 0
   - Bit Wise Instruction NOT : we reverse the value of bits in the varibale or register, the value after not cannot be constant
   
+  
+# The shift & Rotation 
+
+ - In the shift left operation we cannot use any register except the cl,if we use bl we will have troubles
+ - in the cl register we tell how many times repeat the procedure of shilf left 
+ - We have shl and sal is the same
+ - shl al,cx
+ - mov al,101b
+   shl al,1 => al=1010b,CF=0,because the register al has more space we don't have any move of 1 or 0's is the carrity flag
+ - the shl instruction can also deal with variables
+ - jnc :  jump if carry flag = 0
+  
 
   
   
