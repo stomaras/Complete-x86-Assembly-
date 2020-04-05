@@ -527,6 +527,23 @@
 
   - 10101b = 1x2^0 + 0x2^1 + 1x2^2 + 0x2^3 + 1x2^4 = 21d
   
+# Stack and Procedures
+
+  - Stack Segment: this segment is indicated by a register which is Stack Segment Register.
+  - Stack Segment Register : has the address of the beginning of this part which is the stack part.
+  - Also has another register which is Stack Pointer or SP, has the address or the offset from the first row to the ast row
+  - Stack Pointer or SP is indicating in the last row, in our stack
+  - We dealing with the stack with the push and the pop.
+  - In the stack we deal only with 16bits not 8bits,not constamts.
+  - How can we read from our stack? => we use the instruction pop.
+  - push 5 , is wrong only registers and variables are allowed
+  - pop 5, is wrong only 16 bit destination is allowed.
+  - pop al, wrong only 16 bit destination is allowed.
+  - Firstly how can we define the size of the Stack? => .stack 100h most common
+  - pushf: which means puts a flag register in the Stack Segment
+  - popf: which means put the value that's indicated by the sp in the Flag Register.
+  - The Principle of Stack is : Last In First Out (LIFO).
+  
   
 
   
