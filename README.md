@@ -524,6 +524,9 @@
  - ROR,RCL : Rotation Right is the same with the rotation left, the only difference is the direction.LSB go to Carry Flag.
  
 # A simple program
+
+  - 10101b = 1x2^0 + 0x2^1 + 1x2^2 + 0x2^3 + 1x2^4 = 21d
+  
   
 
   
