@@ -544,6 +544,19 @@
   - popf: which means put the value that's indicated by the sp in the Flag Register.
   - The Principle of Stack is : Last In First Out (LIFO).
   
+  # Procedures
+   - we are going to use the procedures when we have complicated, problematic and it would be better to separate this problematics
+     into some problems, so here we have this example.Firstly we need to get the grade Average of student and then we need to sort 
+     them, so here 1st procedure : Calcuate Average, 2nd procedure : Sort the grades.
+   - we use directive far , when we have more than one code segments for example .code1, .code2, .code3
+   - when you have 1 code you don't actually need to call far directive
+   - the procedure actually has 2 characteristics 1st call, 2nd return.
+   - the rule of naming a procedure are the same as naming a variable
+   - the NEAR directive = without any directive
+   - the main procedure must be: the first procedure!
+   - CALL instruction does : call a procedure and pushes the IP register to the Stack!
+   - RET instruction does : return to the procedure which called the actual procedure.
+  
   
 
   
