@@ -556,6 +556,7 @@
    - the main procedure must be: the first procedure!
    - CALL instruction does : call a procedure and pushes the IP register to the Stack!
    - RET instruction does : return to the procedure which called the actual procedure.
+   - int 21h = display screen 
   
   
 
