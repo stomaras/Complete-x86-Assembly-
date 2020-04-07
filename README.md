@@ -566,6 +566,13 @@
    - The multiplication always happens by al or ax,so... is always this register 
    - if the Source has 8 bit the multiplication must be done with al.
    - if the Source has 16 bit the multiplication will be done with ax.
+   - Unsign Values -> div bl
+   - Sign Values -> idiv bl
+   - No flag will be affected by the DIV and IDIV 
+   - if the sign of ax is (+), then the rest will be +.
+   - if the sign of ax is (-), then the rest will be -.
+   - MUL & IMUL instructions changes the State of : CF,OF only
+   - In MUL & IMUL instructions CF = OF = 1 , only if : the result it needs the high part AH or DX.
   
   
 
