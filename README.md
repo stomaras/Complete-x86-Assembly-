@@ -557,6 +557,15 @@
    - CALL instruction does : call a procedure and pushes the IP register to the Stack!
    - RET instruction does : return to the procedure which called the actual procedure.
    - int 21h = display screen 
+   
+# The multiplication and the division
+   - Multiplication is actually difference in the Sign and Unsign values 
+   - In the unsign values we use -> mul
+   - In the sign values we use -> imul
+   - The source after mul or imul should not be Constant it should be register or variable 
+   - The multiplication always happens by al or ax,so... is always this register 
+   - if the Source has 8 bit the multiplication must be done with al.
+   - if the Source has 16 bit the multiplication will be done with ax.
   
   
 
