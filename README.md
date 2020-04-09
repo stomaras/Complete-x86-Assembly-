@@ -573,6 +573,24 @@
    - if the sign of ax is (-), then the rest will be -.
    - MUL & IMUL instructions changes the State of : CF,OF only
    - In MUL & IMUL instructions CF = OF = 1 , only if : the result it needs the high part AH or DX.
+   - DIV $ IDIV instructions change the State of : No Flag 
+ 
+ # Dealing with texts
+ 
+   - Strings are: arrays with one dimension 
+   - When you want to receive a string is better to use the destination index
+   - to input a string we use from the library emu8086.inc the procedure : get_string 
+   - movsb = move string by
+   - positive direction , starting from the offset 0
+   - negative direction starting from bigger to smaller ofset
+   - All the above based on the Direction Flag (DF)
+   - in MOVSB instruction we put: the offset of the source index in SI and the Destination String in DI 
+   - We can use REP instruction with movsb instruction
+   - to use rep instruction we put the number of iterations in CX
+   - DF = 0, means from the left to right
+   - DF =1, means from the right to left
+   - when we deal with the instruction lodsb, we must use the instruction : mov es,ax
+   - In the lodsb instruction, we save the value of String in al and the si increment aytomatically.
   
   
 
