@@ -591,6 +591,15 @@
    - DF =1, means from the right to left
    - when we deal with the instruction lodsb, we must use the instruction : mov es,ax
    - In the lodsb instruction, we save the value of String in al and the si increment aytomatically.
+   - With the Scasb we use most of the times => repne
+   - SCASB instruction compares the char in the source string with the char in: AL
+   - The char which we want to compare must be pointed with : DI
+   - We cannot use REP instruction with SCASB instruction.
+   - Last instruction of dealing with the strings is CMPSB
+   - CMPSB : Compare String By 
+   - We continue the compare of letter in SI, with the letter in the di.
+   - In CMPSB the offset of the source string must be in : SI 
+   - We cannot use REP instruction with CMPSB instruction.
   
   
 
